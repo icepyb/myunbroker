@@ -23,9 +23,10 @@ div .title{
 </style>
 </head>
 <body>
-
+        <input type="text" name="search" id="keyword"><br/>
+        <button onclick='window.open("https://myunblocker.herokuapp.com/proxy/https://www.google.com/search?q="+encodeURI(document.getElementById("keyword").value),"_blank")' type="button">Google Search </button><br/>
 <div class="category">
-<div class="title">新闻媒体<div>
+<div class="title">常用链接<div>
 <hr/>
 <a href="./proxy/https://www.google.com/">Google</a>
 <a href="./proxy/https://www.facebook.com/">Facebook</a>
@@ -38,7 +39,7 @@ div .title{
 <a href="./proxy/https://www.rfa.org/mandarin/">自由亚洲电台</a>
 </div>
 <div class="category">
-<a href="http://159.89.157.101/news-insight/index.html"><img src="logo/news-insight.png" width="30%" alt="新闻看点"/></a>
+<a href="http://159.89.157.101/news-insight/index.html">新闻看点</a>
 </div>
 
 </body>
